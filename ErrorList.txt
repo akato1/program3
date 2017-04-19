@@ -1,0 +1,10 @@
+Error list
+
+IglooScore1:
+1. Inside the first if statement in overallScore(), where score1 and score2 are being compared, the '<' sign is backwards, it should be '>'.
+2. The program isn't checking to see if the scores are inside the range given, 0 through 50.
+
+IglooScore2:
+1. Inside the second else if statement in overallScore(), we're checking to see if score2 is the lowest score, s2 = score2 is no needed therefore it should be s2 = score3.
+2. The else statement in overallScore() is never invoked, will never reach it therefore it can be removed completly.
+3. The conditons inside the third else if statement in overallScore(), are not needed therefore the else if should be changed into an else statement.
